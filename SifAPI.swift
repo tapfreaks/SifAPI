@@ -13,8 +13,19 @@ import UIKit
 private let _shareSifAPI:SifAPI = SifAPI()
 
 class SifAPI:NSObject {
-   
+    
     class var shareSifAPI:SifAPI {
+        
+        _shareSifAPI.params.removeAll(keepCapacity: false)
+        _shareSifAPI.model = ""
+        _shareSifAPI.fromKey = ""
+        _shareSifAPI.method = ""
+        _shareSifAPI.action = ""
+        _shareSifAPI.baseURI = ""
+        _shareSifAPI.cacheTime = 0
+        _shareSifAPI.timeOut = 0
+        _shareSifAPI.cache = false
+        
         return _shareSifAPI
     }
     
