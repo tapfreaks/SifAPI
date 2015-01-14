@@ -5,4 +5,3 @@ SifAPI is written for swift (Apple programming language), which manages REST API
 
 SifAPI also includes an image caching tool, which allows you to download and cache images.
 
-Ver first change by terminal !
