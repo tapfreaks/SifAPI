@@ -14,7 +14,7 @@ sifAPI.action = "student.php" // Action would be added at the end of your base U
 sifAPI.params.append(key:"action", value:"1") // Append Paramenters<br />
 // sifAPI.baseURI = "imageURL" // To use other than baseURL check Preferences.swift<br />
 // sifAPI.fromKey = "data" //Extract information from a particular from returning JSON<br />
-// sifAPI.model = "StudentModel" // Map a NSObject class to returning JSON<br />
+// sifAPI.model = "StudentModel" // Map a NSObject class with returning JSON<br />
 // if returning JSON is an array, you would receive NSArray of model calss in syncDataRequest()<br />
 sifAPI.cache = true // If you want to cache the response<br />
 sifAPI.cacheTime = 120 // How long response would remain cache // in seconds<br />
