@@ -38,5 +38,4 @@ sifImg.getImage("me.jpg") { (image: UIImage) in<br />
 }
 </pre>
 </code>
-<b>Thanks</b>
-<h3><a href="http://www.tapfreaks.net/">TapFreaks!</a></h3>
+<b>Thanks for using, <a href="http://www.tapfreaks.net/">TapFreaks!</a></b>
