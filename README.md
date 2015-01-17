@@ -4,9 +4,10 @@ SifAPI
 SifAPI is written for swift (Apple programming language), which manages REST API calling &amp; manage returning results magically.
 
 SifAPI also includes an image caching tool, which allows you to download and cache images.
-<br />
-<br />
+<br /><br />
 <B>SifAPI</B><br />
+<pre>
+<code>
 let sifAPI = SifAPI.shareSifAPI<br />
 sifAPI.method = "GET" // Requesting method POST or GET<br />
 sifAPI.action = "student.php" // Action would be added at the end of your base URL<br />
@@ -23,13 +24,19 @@ sifAPI.syncDataRequest() { (response:AnyObject) in<br />
     var resString = NSString(data: response as NSData, encoding:NSUTF8StringEncoding)<br />
     println(resString)<br />
 }<br />
-<br />
-<B>SifImageCache</B><br />
+</code>
+</pre>
+<B>SifImageCache</B>
+<pre>
+<code>
 var sifImg = SifImageCache()<br />
 sifImg.baseURL = "imageURL" //To use other than baseURL check Preferences.swift<br />
 sifImg.getImage("me.jpg") { (image: UIImage) in<br />
-    // self.view.cellImage!.image = image // Image would be loaded from internet for first time only, next time it would be loaded from local resources.<br />
-}<br />
-
+    // self.view.cellImage!.image = image 
+    // Image would be loaded from internet for first time only 
+    // Next time it would be loaded from local resources.
+}
+</pre>
+</code>
 <b>Thanks</b>
 <h3><a href="http://www.tapfreaks.net/">TapFreaks!</a></h3>
