@@ -5,7 +5,7 @@ SifAPI is written for swift (Apple programming language), which manages REST API
 
 SifAPI also includes an image caching tool, which allows you to download and cache images.
 <br /><br />
-<B>SifAPI</B><br />
+<B>SifAPI :</B><br />
 <pre>
 <code>
 let sifAPI = SifAPI.shareSifAPI<br />
@@ -26,7 +26,7 @@ sifAPI.syncDataRequest() { (response:AnyObject) in<br />
 }<br />
 </code>
 </pre>
-<B>SifImageCache</B>
+<B>SifImageCache :</B>
 <pre>
 <code>
 var sifImg = SifImageCache()<br />
